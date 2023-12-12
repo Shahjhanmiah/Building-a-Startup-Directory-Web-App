@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "StartupName": "TouchKin",
+        "Industry": "Technology"
+    },
+    {
+        "id": "2",
+        "StartupName": "Ethinos",
+        "Industry": "Technology"
+    },
+    {
+        "id": "3",
+        "StartupName": "Leverage Edu",
+        "Industry": "Consumer Internet"
+    },
+    {
+        "id": "4",
+        "StartupName": "Billion Loans",
+        "Industry": "Consumer Internet"
+    },
+    {
+        "id": "5",
+        "StartupName": "LEcolibriumenergy",
+        "Industry": "eCommerce"
+    },
+    {
+        "id": "6",
+        "StartupName": "MyCity4kids",
+        "Industry": "eCommerce"
+    }
+]

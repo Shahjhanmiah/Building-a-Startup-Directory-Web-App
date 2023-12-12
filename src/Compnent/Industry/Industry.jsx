@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Industryshow from "./Industryshow";
 import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar";
+import StartupList from "../StartupList";
 
 
 const Industry = () => {
@@ -30,6 +31,7 @@ const Industry = () => {
             <SearchBar></SearchBar>
 
             {/* Dropdwon  */}
+            <StartupList></StartupList>
             <div className='flex items-center justify-center'>
                 <details className="dropdown">
                     <summary className="m-1 mx-auto btn bg-blue-600 text-white">Dropdown</summary>
