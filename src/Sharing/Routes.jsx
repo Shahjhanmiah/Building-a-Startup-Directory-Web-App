@@ -6,6 +6,7 @@ import {
 import Main from "./Main";
 import Industry from "../Compnent/Industry/Industry";
 import IndustryClick from "../Compnent/Industry/IndustryClick";
+import Addusger from "../Compnent/Industry/Addusger";
   
   const router = createBrowserRouter([
 
@@ -25,6 +26,10 @@ import IndustryClick from "../Compnent/Industry/IndustryClick";
                 element:<IndustryClick></IndustryClick>
                
               },
+              {
+                path:'/adduser',
+                element:<Addusger></Addusger>
+              }
             
         ]
     },
