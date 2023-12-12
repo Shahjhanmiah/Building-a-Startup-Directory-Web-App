@@ -88,30 +88,22 @@ const Industry = () => {
             <div>
                 <div>
 
-                    <h1 className="text-5xl text-center font-semibold"> Total Item:{post.length}</h1>
-                    <div className="overflow-x-auto w-full ">
-                        <table className="table w-full text-center ">
+                    <h1 className="text-5xl text-center font-">New Add User: {post.length}</h1>
+                    <div className="overflow-x-auto w-full gap-3">
+                        <table className="min-w-full table-auto text-center">
                             {/* head */}
                             <thead>
-                                <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ml-20  bottom-5'>
+                                <tr className="bg-blue-600 text-white">
 
-
-                                    <th>StartupName</th>
                                     <th>CompanyName</th>
                                     <th>City</th>
-                                    <th>Starting Year</th>
+                                    <th>StartingYear</th>
                                     <th>Founders</th>
                                     <th>Industry</th>
                                     <th>Employees</th>
+                                    <th>FundingAmount</th>
 
-
-                                    <div className="space-y-4">
-
-                                        <div className="space-y-2">
-
-                                        </div>
-                                    </div>
-                                </div>
+                                </tr>
                             </thead>
                             <tbody>
                                 {
@@ -119,17 +111,27 @@ const Industry = () => {
                                         key={post._id}
                                     >
                                         <td>
-                                            {post.
-                                                startupName}
+                                       {post.companyName}
                                         </td>
                                         <td >
 
-                                            {/* {item.email}   */}
+                                           {post.city}
                                         </td>
                                         <td>
-                                            {/* {item.password}  */}
+                                         {post.startingYear}
                                         </td>
-                                        <td> </td>
+                                        <td> 
+                                            {post.founders}
+                                        </td>
+                                        <td> 
+                                            {post.industry}
+                                        </td>
+                                        <td>
+                                            {post.employees}
+                                        </td>
+                                        <td>
+                                            {post.fundingAmount}
+                                        </td>
 
 
                                     </tr>)
