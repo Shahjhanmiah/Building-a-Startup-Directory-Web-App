@@ -1,9 +1,9 @@
 // SearchBar.js
 
 
-const SearchBar = ({ onSearch, }) => {
+const SearchBar = ({ onSearch, onButtonClick }) => {
   return (
-    <div className="flex items-center justify-center mb-9">
+    <div className="flex items-center justify-center mb-10">
       <div className="relative">
         <input
           type="text"
@@ -19,6 +19,7 @@ const SearchBar = ({ onSearch, }) => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
+          onClick={onButtonClick}
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
@@ -26,7 +27,7 @@ const SearchBar = ({ onSearch, }) => {
           ></path>
         </svg>
       </div>
-    
+     
     </div>
   );
 };
