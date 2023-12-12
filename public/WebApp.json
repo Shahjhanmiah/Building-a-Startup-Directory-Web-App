@@ -1,0 +1,88 @@
+[
+    {
+      
+        "StartupName":"TouchKin",
+        "CompanyName":"EliLilly & Co.",
+        "City":"Bangalore",
+        "Starting Year":"2001",
+        "Founders":"Shahjhan Miah",
+        " Industry":"Technology",
+        "Employees":"10,157",
+        "FundingAmount":"1,300,000",
+        "description":"Eli Lilly and Company is an American pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 18 countries. Its products are sold in",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnj2CqQKvK3bFk-_Q67IallvubxVDCcLZkAlGEmlZxyd3VoYZvfH0PE_s_AxinHodO0eg&usqp=CAU"
+
+    },
+    {
+    
+        "StartupName":"Ethinos",
+        "CompanyName":"Lippert Components,Inc.",
+        "City":"Mumbai",
+        "Starting Year":"2002",
+        "Founders":"Masum Ahmed",
+        " Industry":"Technology",
+        "Employees":"9,157",
+        "FundingAmount":"1,3000,",
+        "description":"Lippert Components, Inc. provides recreational vehicle and housing components. The Company offers towing, leveling, awnings, chassis, axles, slide-outs, storage, waste management, electronics, windows, doors, mattresses, and furniture products. Lippert Components serves customers in North America.",
+        
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLOM0ZDJWhLZtXzuPunS858XIzKjgcfjhoY7-AZxm_3gvyTEXAyQWYZS0T6beWlv8XF-0&usqp=CAU"
+
+    },
+    {
+        
+        "StartupName":"Leverage Edu",
+        "CompanyName":"Toyota Motor Manufacturing, Indiana, Inc.",
+        "City":"New Delhi",
+        "Starting Year":"2002",
+        "Founders":"Mehedi Hasan",
+        " Industry":"Consumer Internet",
+        "Employees":"7,500",
+        "FundingAmount":"850,000",
+        "description":"Toyota Motor Manufacturing, Indiana (TMMI) uses high-tech manufacturing systems to assemble some of the most technologically advanced vehicles on the road today. TMMI has assembled more than 6",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnzPhHwOkjAmpkl2-lEP_opSnWZRHdGHKY_2zCqMGxYBDqWBAPMeUKWqgRarFMCF3xGvM&usqp=CAU"
+
+    },
+    {
+        
+        "StartupName":"Billion Loans",
+        "CompanyName":"Subaru of Indiana Automotive, Inc.",
+        "City":"New Delhi",
+        "Starting Year":"2002",
+        "Founders":"Bijoy",
+        " Industry":"Consumer Internet",
+        "Employees":"7,500",
+        "FundingAmount":"850,00",
+        "description":"Subaru of Indiana Automotive Inc. (SIA), part of the Subaru family of companies, is home of North American production for the Ascent, Crosstrek, Legacy and Outback models. SIA employs more than 6,000",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrf9j3EaKNtwgRY5eyFC8VOqzI35cbMa9pFu1ztrrsoZf54IOlKSwsOTTJ053N7SULiEY&usqp=CAU"
+
+    },
+    {
+      
+        "StartupName":"Ecolibriumenergy",
+        "CompanyName":"Zimmer Biomet Holdings, Inc.",
+        "City":"Hyderabad",
+        "Starting Year":"2003",
+        "Founders":"Raju",
+        " Industry":"eCommerce",
+        "Employees":"7,500",
+        "FundingAmount":"850,00",
+        "description":"The company designs manufacture and markets orthopedic reconstructive products; biologics, sports medicine, extremities, and trauma products; suite of integrated digital and robotic technologies;",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdvIrNs6Oy2EAgg0J7XBD498bBJnKmtY-3wtFgckr9OWldLq2FhXvRBnUwneSNEgQcsg4&usqp=CAU"
+
+    },
+    {
+   
+        "StartupName":"MyCity4kids",
+        "CompanyName":"General Motors, Fort Wayne Assembly",
+        "City":"Mumbai",
+        "Starting Year":"2003",
+        "Founders":"Robin",
+        " Industry":"eCommerce",
+        "Employees":"8,500",
+        "FundingAmount":"850,000",
+        "description":"Fort Wayne Assembly is an automobile factory in Roanoke, Indiana. Opened in 1986 by General Motors, the 4,600,000 sq ft (430,000 m2) plant produces vehicles on the company's GMT T1XX vehicle platform.",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgiWfZ4x1LijJqyxBAd2ZCqfURpdghIKdjIyPM8pCCgS4aoInvNfKc4DgMVq-D-vjs_hQ&usqp=CAU"
+
+    }
+    
+]
