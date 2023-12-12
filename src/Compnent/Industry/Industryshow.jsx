@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 
+
 const Industryshow = ({start}) => {
     const {CompanyName,StartupName,City,Starting,Year,Founders,Industry,Employees,FundingAmount,_id} = start
     console.log(start);
     return (
         <div>
             
+            
 
     <div className="max-w-lg p-4 shadow-md dark:bg-gray-900 dark:text-gray-100">
+       
 	
     <h1>StartupName:{StartupName}</h1>
     <h1>CompanyName:{CompanyName}</h1>

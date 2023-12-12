@@ -7,6 +7,7 @@ import Main from "./Main";
 import Industry from "../Compnent/Industry/Industry";
 import IndustryClick from "../Compnent/Industry/IndustryClick";
 import Addusger from "../Compnent/Industry/Addusger";
+import Addalluser from "../Compnent/Industry/Addalluser";
   
   const router = createBrowserRouter([
 
@@ -29,7 +30,12 @@ import Addusger from "../Compnent/Industry/Addusger";
               {
                 path:'/adduser',
                 element:<Addusger></Addusger>
+              },
+              {
+                path:'/',
+                element:<Addalluser></Addalluser>
               }
+              
             
         ]
     },

@@ -2,7 +2,19 @@ import { useEffect, useState } from "react";
 import Industryshow from "./Industryshow";
 import { Link } from "react-router-dom";
 
+
 const Industry = () => {
+
+
+    const [post, Post] = useState([])
+
+    useEffect(() => {
+        fetch('http://localhost:5000/post')
+            .then(res => res.json())
+            .then(data => Post(data))
+    }, [])
+
+
 
     const [startup, Startup] = useState([])
 
@@ -43,14 +55,14 @@ const Industry = () => {
                         <li><a>Shahjhan </a></li>
                         <li><a>Item 2</a></li>
                     </ul>
-                
+
                 </details>
                 <br></br>
-              <dvi className="gap-3">
-                <Link to={'/adduser'}>
-              <button className="btn btn-outline btn-info">Adduser</button>
-              </Link>
-              </dvi>
+                <dvi className="gap-3">
+                    <Link to={'/adduser'}>
+                        <button className="btn btn-outline btn-info">Adduser</button>
+                    </Link>
+                </dvi>
             </div>
 
             <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ml-20  bottom-5" '>
@@ -66,6 +78,68 @@ const Industry = () => {
                     </Industryshow>)
                 }
 
+                <div>
+
+                </div>
+
+
+            </div>
+
+            <div>
+                <div>
+
+                    <h1 className="text-5xl text-center font-semibold"> Total Item:{post.length}</h1>
+                    <div className="overflow-x-auto w-full ">
+                        <table className="table w-full text-center ">
+                            {/* head */}
+                            <thead>
+                                <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ml-20  bottom-5'>
+
+
+                                    <th>StartupName</th>
+                                    <th>CompanyName</th>
+                                    <th>City</th>
+                                    <th>Starting Year</th>
+                                    <th>Founders</th>
+                                    <th>Industry</th>
+                                    <th>Employees</th>
+
+
+                                    <div className="space-y-4">
+
+                                        <div className="space-y-2">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </thead>
+                            <tbody>
+                                {
+                                    post.map((post,) => <tr
+                                        key={post._id}
+                                    >
+                                        <td>
+                                            {post.
+                                                startupName}
+                                        </td>
+                                        <td >
+
+                                            {/* {item.email}   */}
+                                        </td>
+                                        <td>
+                                            {/* {item.password}  */}
+                                        </td>
+                                        <td> </td>
+
+
+                                    </tr>)
+                                }
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
 
         </div>
