@@ -1,32 +1,5 @@
 [
-    {
-        "id": "1",
-        "StartupName": "TouchKin",
-        "Industry": "Technology"
-    },
-    {
-        "id": "2",
-        "StartupName": "Ethinos",
-        "Industry": "Technology"
-    },
-    {
-        "id": "3",
-        "StartupName": "Leverage Edu",
-        "Industry": "Consumer Internet"
-    },
-    {
-        "id": "4",
-        "StartupName": "Billion Loans",
-        "Industry": "Consumer Internet"
-    },
-    {
-        "id": "5",
-        "StartupName": "LEcolibriumenergy",
-        "Industry": "eCommerce"
-    },
-    {
-        "id": "6",
-        "StartupName": "MyCity4kids",
-        "Industry": "eCommerce"
-    }
+    { "id": 1, "name": "Tech Startup 1", "industry": "tech" },
+    { "id": 2, "name": "Health Startup 1", "industry": "health" },
+    { "id": 3, "name": "Finance Startup 1", "industry": "finance" }
 ]

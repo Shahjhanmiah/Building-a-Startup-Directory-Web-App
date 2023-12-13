@@ -2,6 +2,11 @@
 
 
 const SearchBar = ({ onSearch, onButtonClick }) => {
+
+
+  
+
+
   return (
     <div className="flex items-center justify-center mb-10">
       <div className="relative mb-5">

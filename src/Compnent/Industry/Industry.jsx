@@ -1,12 +1,17 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Industryshow from "./Industryshow";
 import { Link } from "react-router-dom";
 import SearchBar from "../SearchBar";
 import StartupList from "../StartupList";
+import { MainContext } from "../Context/AuthContext";
 
 
 const Industry = () => {
 
+    const {startups, setStartups} = useContext(MainContext)
+
+
+    console.log({startups});
 
     const [post, Post] = useState([])
 
@@ -14,33 +19,26 @@ const Industry = () => {
         fetch('http://localhost:5000/post')
             .then(res => res.json())
             .then(data => Post(data))
-    }, [])
+    }, [startups])
 
 
 
-    const [startup, Startup] = useState([])
+    // const [startup, Startup] = useState([])
 
-    useEffect(() => {
-        fetch('http://localhost:5000/Startup')
-            .then(res => res.json())
-            .then(data => Startup(data))
-    }, [])
+    // useEffect(() => {
+    //     fetch('http://localhost:5000/Startup')
+    //         .then(res => res.json())
+    //         .then(data => Startup(data))
+    // }, [])
     return (
         <div>
             {/* search bar */}
-            <SearchBar></SearchBar>
+            <SearchBar ></SearchBar>
 
             {/* Dropdwon  */}
             <StartupList></StartupList>
             <div className='flex items-center justify-center'>
-                <details className="dropdown">
-                    <summary className="m-1 mx-auto btn bg-blue-600 text-white">Dropdown</summary>
-                    <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                        <li><a>Shahjhan </a></li>
-                        <li><a>Item 2</a></li>
-                    </ul>
-
-                </details>
+               
                 <br></br>
                 <dvi className="gap-3">
                     <Link to={'/adduser'}>
@@ -51,7 +49,7 @@ const Industry = () => {
 
             <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto ml-20  bottom-5" '>
                 {
-                    startup.map(start => <Industryshow key={start._id}
+                    startups.map(start => <Industryshow key={start._id}
 
                         start={start}
 
