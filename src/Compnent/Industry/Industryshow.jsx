@@ -9,7 +9,7 @@ const Industryshow = ({start}) => {
             
             
 
-    <div className="max-w-lg p-4 shadow-md dark:bg-gray-900 dark:text-gray-100">
+    <div className="max-w-lg p-4 shadow-md  dark:text-gray-100">
        
 	
     <h1>StartupName:{StartupName}</h1>
