@@ -81,7 +81,7 @@ const Industry = () => {
                 </dvi>
             </div>
 
-            <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto mx-20  bottom-5  card:hover card-inner transform: rotateY(180deg)" '>
+            <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-auto mx-20  bottom-5 font-semibold" '>
                 {
                     startups.map(start => <Industryshow key={start._id}
 
