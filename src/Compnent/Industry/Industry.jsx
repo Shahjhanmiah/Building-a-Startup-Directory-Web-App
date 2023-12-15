@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import Industryshow from "./Industryshow";
 import { Link } from "react-router-dom";
-import SearchBar from "../SearchBar";
+// import SearchBar from "../SearchBar";
 import StartupList from "../StartupList";
 import { MainContext } from "../Context/AuthContext";
 
@@ -18,7 +18,7 @@ const Industry = () => {
     const [post, Post] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/post')
+        fetch('https://web-app-server-e6dx.onrender.com/post')
             .then(res => res.json())
             .then(data => Post(data))
     }, [startups])
@@ -52,7 +52,7 @@ const Industry = () => {
     return (
         <div>
             {/* search bar */}
-            <SearchBar ></SearchBar>
+            {/* <SearchBar ></SearchBar> */}
 
             <label className="swap swap-rotate px-5">
 

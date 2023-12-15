@@ -7,7 +7,7 @@ const StartupList = () => {
   const [filter, setFilter] = useState('');
 
   useEffect(() => {
-    fetch(`http://localhost:5000/Startup?filter=${filter}`)
+    fetch(`https://web-app-server-e6dx.onrender.com/Startup?filter=${filter}`)
       .then(response => response.json())
       .then(data => setStartups(data));
   }, [filter]);

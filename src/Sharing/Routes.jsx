@@ -23,7 +23,7 @@ import Addalluser from "../Compnent/Industry/Addalluser";
             
               {
                 path:'/allIndusrty/:id',
-                loader: ({params}) => fetch(`http://localhost:5000/Startup/${params.id}`),
+                loader: ({params}) => fetch(`https://web-app-server-e6dx.onrender.com/Startup/${params.id}`),
                 element:<IndustryClick></IndustryClick>
                
               },
