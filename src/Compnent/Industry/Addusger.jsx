@@ -21,7 +21,7 @@ const Addusger = () => {
         const newUser = { startupName, companyName, city, startingYear, founders, industry, employees, fundingAmount }
         console.log(newUser);
 
-        fetch('http://localhost:5000/post', {
+        fetch('https://web-app-server-e6dx.onrender.com/post', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
