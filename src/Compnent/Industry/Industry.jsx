@@ -74,14 +74,14 @@ const Industry = () => {
             <div className='flex items-center justify-center'>
 
                 <br></br>
-                <dvi className="gap-3">
+                <dvi className="gap-3 mt-10">
                     <Link to={'/adduser'}>
                         <button className="btn btn-outline btn-info">Adduser</button>
                     </Link>
                 </dvi>
             </div>
 
-            <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-auto mx-20  bottom-5 font-semibold" '>
+            <div className='grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-auto mx-20  bottom-5 font-semibold   " '>
                 {
                     startups.map(start => <Industryshow key={start._id}
 
@@ -102,14 +102,16 @@ const Industry = () => {
             </div>
 
             <div>
+                <br></br>
                 <div>
 
                     <h1 className="text-5xl text-center font-">New Add User: {post.length}</h1>
-                    <div className="overflow-x-auto w-full gap-3">
+                    <br></br>
+                    <div className="overflow-x-auto w-full gap-3 font-semibold">
                         <table className="min-w-full table-auto text-center">
                             {/* head */}
                             <thead>
-                                <tr className="bg-blue-600 text-white">
+                                <tr className="bg-blue-600 text-white gap-4">
 
                                     <th>CompanyName</th>
                                     <th>City</th>

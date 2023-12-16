@@ -10,7 +10,7 @@ const IndustryClick = () => {
         <div>
            
 
-            <div className="max-w-full p-4 shadow-md dark:bg-gray-900 dark:text-gray-100 mx-auto px-10 mx-10 my-20">
+            <div className="max-w-full p-4 shadow-md dark:bg-gray-900 dark:text-gray-100 mx-auto px-10 mx-10 my-20 overflow-hidden bg-white rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2">
                     <div className="flex justify-between pb-4 border-bottom">
                         
                         <a rel="noopener noreferrer" href="#"></a>

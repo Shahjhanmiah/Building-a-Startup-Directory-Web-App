@@ -22,7 +22,7 @@ const StartupList = () => {
   const filteredStartups = startups;
 
   return (
-    <div>
+    <div className='font-semibold'>
       <label htmlFor="industryFilter">Filter by Industry:</label>
       <select id="industryFilter" onChange={(e)=>setFilter(e.target.value)} className="p-2 mx-2">
         <option value="">All Industries</option>
